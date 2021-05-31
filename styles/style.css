@@ -1,0 +1,30 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    height: 60px;
+    display: flex;
+}
+
+.google-logo{
+    height: 290px;
+    display: flex;
+}
+
+.search-bar{
+    height: 140px;
+    display: flex;
+}
+
+.languages{
+    height: 379;
+    display: flex;
+}
+
+.footer{
+    height: 94;
+    display: flex;
+}
