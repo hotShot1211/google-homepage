@@ -237,6 +237,10 @@ a{
     justify-content: space-around;
 }
 
+.gmail a{
+    color: black;
+    
+}
 .apps{
     height: 48px;
     width: 96px;
@@ -258,8 +262,18 @@ a{
     box-sizing: border-box;
     padding-top: 4px;
     border: none;
+    cursor: pointer;
 }
 
 .profile:hover{
-    box-shadow: 3px 3px 4px rgba(0,0,0,0.19)
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.19);
+}
+.img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.img:hover{
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.19);
 }
