@@ -216,7 +216,9 @@ a{
 }
 
 .app-container{
-
+    width: 253.59px;
+    height: 48px;
+    display: flex; 
     float: right;
     box-sizing: border-box;
     height: 48px;
@@ -228,10 +230,36 @@ a{
     white-space: nowrap;
     align-items: center;
 }
+.gmail{
+    display: flex;
+    height: 24px;
+    width: 121.59px;
+    justify-content: space-around;
+}
+
+.apps{
+    height: 48px;
+    width: 96px;
+}
+
+.apps>div{
+    display: flex;
+    justify-content: space-around;
+}
 
 .profile{
-    height: 4px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
     background-color: purple;
+    text-align: center;
+    color: white;
+    font-size: large;
+    box-sizing: border-box;
+    padding-top: 4px;
+    border: none;
+}
+
+.profile:hover{
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.19)
 }
